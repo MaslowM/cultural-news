@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 47px;
+}
+
+.header-title {
+    height: 47px;
+    margin: 0;
+    margin-bottom: 46px;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+ul.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none; 
+    height: 18px;   
+}
+
+.header-nav-list a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-nav-list a:hover {
+    color: #FF7931;
+}
+
+section.addv {
+    padding-top: 46px;
+    padding-bottom: 48px;
+    text-align: center;
+    background: rgb(15, 32, 49) url("img/addv.jpg") no-repeat center top;
+    background-size: cover;  
+    color: white;
+}
+
+.hotel-logo {
+    margin-bottom: 32px;
+    height: 55px;
+    width: 55px;
+}
+
+.addv-title {
+    margin: 0;
+    margin-bottom: 139px;
+    padding: 0;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+section.reviews {
+    margin: 0;
+    padding: 0;
+    padding-top: 44px;
+    padding-bottom: 51px;
+    text-align: center;
+}
+
+h3.reviews {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article.reviews {
+    margin: 0;
+    padding: 0;
+    margin-left: 29px;
+}
+
+.review img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    height: 203px;
+    width: 370px;
+}
+
+h4.review {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+a.review {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+a.review:hover {
+    filter: sepia(1) hue-rotate(160deg) contrast(0.3) brightness(0.7);
+    color: #FF7931;
+}
+
+p.review {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    text-align: left;
+}
+
+section.specials {
+    position: relative;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-top: 33px;
+    padding-bottom: 36px;
+    text-align: center;  
+    background: #F7F7F7 url("img/circle.png") no-repeat center;
+    background-size: 707px;
+    background-origin: border-box;
+}
+
+.specials h3 {
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+ul.specials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+.offer-title {
+    padding-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+dd.offer {
+    height: 63px;
+    width: 370px;
+}
+
+dd.offer:last-child {
+    margin-bottom: 25px;
+}
+
+.strip {
+    position: absolute;
+    top: 192px;
+    left: 46%;
+    height: 128px;
+    width: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.btn {
+    display: inline-block;
+    position: relative;
+    max-width: 170px;
+    max-height: 47px;
+    margin: 0;
+    padding: 17px 30px 15px 30px;
+    margin-top: 25px;
+    text-decoration: none;
+    background-color: #FF7931;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: url("img/sprite.png") no-repeat -20px -82px;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    padding-top: 26px;
+    padding-bottom: 46px;
+    color: white;
+    background-color: #575757;
+}
+
+.footer-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.footer-nav-list a {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-nav-list a:hover {
+    color: #FF7931;
+} 
+
+.footer-top {
+    padding-bottom: 46px;
+    margin-bottom: 42px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.footer-bottom {
+    font-size: 0;
+    text-align: center;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    margin-right: 14px;
+    vertical-align: middle;
+    background: white url("img/sprite.png") no-repeat;
+  }
+
+  .social-btn:last-child {
+    margin-right: 0px;
+  } 
+
+  .social-btn-in {
+    background-position: -8px 12px;
+}
+
+.social-btn-tw {
+    background-position: -7px -29px;
+}
+
+.social-btn-fb {
+    background-position: -3px -105px;
+}
+
+.social-btn:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+.social-btn:active {
+    outline: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
